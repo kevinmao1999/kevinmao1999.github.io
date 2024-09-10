@@ -1,2 +1,0 @@
-# developerProfile
-Developer profile
