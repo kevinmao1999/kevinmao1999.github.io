@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .global-container {
         display: flex;
         flex-direction: column;
@@ -14,7 +14,7 @@ body {
         background-color: white;
     }
 }
-@media (min-width: 401px) {
+@media (min-width: 381px) {
     .global-container {
         display: flex;
         flex-direction: column;
@@ -136,7 +136,7 @@ h2 {
     display: flex;
     align-items: flex-start;
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .about-me-container {
         display: flex;
         flex-direction: column;
@@ -144,11 +144,12 @@ h2 {
         margin: 0 2.5em 2.5em 2.5em;
     }
 }
-@media (min-width: 401px) {
+@media (min-width: 381px) {
     .about-me-container {
         display: flex;
         flex-direction: column;
-        width: 25%;
+        width: 50%;
+        max-width: 30em;
         margin: 0 2.5em 2.5em 2.5em;
     }
 }
@@ -157,11 +158,10 @@ h2 {
     cursor: pointer;
     text-decoration: none;
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .education-container {
         display: flex;
         width: 65%;
-        max-width: 30em;
         height: 8em;
         background-color: #f2c6de;
         border: 0.2em solid #eb5baa;
@@ -170,12 +170,12 @@ h2 {
         margin: 1em 0 3em 0;
     }
 }
-@media (min-width: 401px) {
+@media (min-width: 381px) {
     .education-container {
         display: flex;
         width: 40%;
         max-width: 30em;
-        height: 7em;
+        height: 8em;
         background-color: #f2c6de;
         border: 0.2em solid #eb5baa;
         border-radius: 15px;
@@ -222,7 +222,7 @@ h2 {
     margin: 0;
     padding: 0;
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .projects-item {
         display: flex;
         flex-direction: column;
@@ -236,11 +236,12 @@ h2 {
 
     }
 }
-@media (min-width: 401px) {
+@media (min-width: 381px) {
     .projects-item {
         display: flex;
         flex-direction: row;
         width: 75%;
+        max-width: 70em;
         height: auto;
         background-color: #DBCDF0;
         border: 0.2em solid #8958d4;
@@ -249,7 +250,7 @@ h2 {
         margin: 1em 0 3em 0;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .projects-item-description {
         flex: 0 0 40%;
         padding: 1em;
@@ -258,7 +259,7 @@ h2 {
         justify-content: center;
     }
 }
-@media (min-width: 401px) {
+@media (min-width: 381px) {
     .projects-item-description {
         flex: 0 0 40%;
         padding: 1em;
@@ -272,7 +273,7 @@ h2 {
     font-weight: bold;
     margin-bottom: 0.5em;
 }
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     .projects-item-images {
         flex: 1;
         display: flex;
@@ -281,7 +282,7 @@ h2 {
         padding: 1em;
     }
 }
-@media (min-width: 401px) {
+@media (min-width: 381px) {
     .projects-item-images {
         flex: 1;
         display: flex;
