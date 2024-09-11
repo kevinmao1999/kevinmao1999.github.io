@@ -298,9 +298,9 @@ h2 {
     border-radius: 5px;
 }
 .projects-link {
-    color: #000000;
     cursor: pointer;
     text-decoration: underline;
+    color: #000000;
 }
 .skills-container {
     display: flex;
