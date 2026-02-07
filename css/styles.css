@@ -35,34 +35,34 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #FAEDCB;
+    background-color: #faedcb;
 }
 .section-bg2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #C9E4DE;
+    background-color: #c9e4de;
 }
 .section-bg3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #F7D9C4;
+    background-color: #f7d9c4;
 }
 .section-bg4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: #C6DEF1;
+    background-color: #c6def1;
 }
 h2 {
     font-size: 2.5em;
     margin: 1em 0.1em 0.5em 0.1em;
     padding: 0.5em;
-    user-select: none
+    user-select: none;
 }
 .header-section-container {
     display: flex;
@@ -90,7 +90,7 @@ h2 {
     padding: 0;
     border: 0;
     position: relative;
-    user-select: none
+    user-select: none;
 }
 .header-section-container h2 {
     font-size: 1em;
@@ -99,7 +99,7 @@ h2 {
     padding: 0;
 }
 .blinking-underscore::after {
-    content: '_';
+    content: "_";
     opacity: 1;
     animation: blink 1.06s infinite;
     left: 98%;
@@ -108,8 +108,13 @@ h2 {
     position: absolute;
 }
 @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 .header-links-container {
     display: flex;
@@ -124,7 +129,7 @@ h2 {
     display: inline-block;
     padding: 0.33em 0.66em;
     margin: 1em;
-    background-color: #DBCDF0;
+    background-color: #dbcdf0;
     border-style: solid;
     border-color: #8958d4;
     border-width: 0.2em;
@@ -195,7 +200,7 @@ h2 {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 0 0 0 1em
+    margin: 0 0 0 1em;
 }
 .education-image img {
     max-width: 100%;
@@ -222,7 +227,7 @@ h2 {
 .education-3 {
     font-style: italic;
     margin: 0;
-    padding: 0;
+    padding: 3px 0 0 0;
 }
 @media (max-width: 430px) {
     .projects-item {
@@ -230,12 +235,11 @@ h2 {
         flex-direction: column;
         width: 75%;
         height: auto;
-        background-color: #DBCDF0;
+        background-color: #dbcdf0;
         border: 0.2em solid #8958d4;
         border-radius: 15px;
         overflow: hidden;
         margin: 1em 0 3em 0;
-
     }
 }
 @media (min-width: 431px) {
@@ -245,7 +249,7 @@ h2 {
         width: 75%;
         max-width: 70em;
         height: auto;
-        background-color: #DBCDF0;
+        background-color: #dbcdf0;
         border: 0.2em solid #8958d4;
         border-radius: 15px;
         overflow: hidden;
